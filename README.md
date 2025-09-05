@@ -4,24 +4,6 @@ A simple yet functional calculator application built in C#, developed as part of
 
 ---
 
-## Table of Contents
-
-- [About the Project](#about-the-project)  
-- [Features](#features)  
-- [Technologies](#technologies)  
-- [Getting Started](#getting-started)  
-  - [Prerequisites](#prerequisites)  
-  - [Installation](#installation)  
-- [Usage](#usage)  
-- [Running Tests](#running-tests)  
-- [Project Structure](#project-structure)  
-- [Roadmap](#roadmap)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)
-
----
-
 ## About the Project
 
 This application is a straightforward calculator designed for ease of use, offering basic arithmetic functionality through a responsive GUI. It supports both mouse and keyboard interactions, making it an excellent practical showcase for GUI development and event-driven programming.
