@@ -1,86 +1,108 @@
-# Calculator App - CS345
+# Calculator App – CS345
 
-This repository contains the source code for a simple yet functional calculator application.  
-This project was developed as part of the CS345 course and serves as a practical demonstration of fundamental programming concepts and GUI design.
+A simple yet functional calculator application built in C#, developed as part of the CS345 course. It demonstrates core programming concepts and clean GUI design.
+
+---
+
+## Table of Contents
+
+- [About the Project](#about-the-project)  
+- [Features](#features)  
+- [Technologies](#technologies)  
+- [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Installation](#installation)  
+- [Usage](#usage)  
+- [Running Tests](#running-tests)  
+- [Project Structure](#project-structure)  
+- [Roadmap](#roadmap)  
+- [Contributing](#contributing)  
+- [License](#license)  
+- [Contact](#contact)
+
+---
+
+## About the Project
+
+This application is a straightforward calculator designed for ease of use, offering basic arithmetic functionality through a responsive GUI. It supports both mouse and keyboard interactions, making it an excellent practical showcase for GUI development and event-driven programming.
+
+---
 
 ## Features
 
-The calculator is designed to be user-friendly and includes the following features:
+- **Basic Arithmetic**: Addition (`+`), Subtraction (`–`), Multiplication (`×`), Division (`÷`)  
+- **Clear Functionality**: Resets the current input (typically `C` or `AC`)  
+- **Responsive User Interface**: Clean and intuitive layout  
+- **Keyboard Support**: Input via number keys and operators
 
-- **Basic Arithmetic Operations**: Perform addition, subtraction, multiplication, and division.  
-- **Clear Functionality**: Clear the current input and reset the calculator state.  
-- **Responsive UI**: A clean and intuitive user interface.  
-- **Keyboard Support**: Perform calculations using either the on-screen buttons or the keyboard.
+---
 
-## Technologies Used
+## Technologies
 
-- **Programming Language**: C#  
-- **Package Manager**: NuGet  
-- **Version Control**: Git
+- **Language**: C#  
+- **Framework**: .NET (compatible with `dotnet` CLI or Visual Studio)  
+- **Package Management**: NuGet  
+- **Version Control**: Git / GitHub
+
+---
 
 ## Getting Started
 
-To get a local copy of this project up and running, follow these simple steps.
-
 ### Prerequisites
 
-Ensure you have the following installed:
+Ensure you have the following installed on your system:
 
-- [C# / .NET SDK](https://dotnet.microsoft.com/download)  
-- NuGet (included with most .NET installations)  
+- .NET SDK (version compatible with the project)  
+- NuGet (typically included with .NET SDK)  
 - Git
 
 ### Installation
 
-1. **Clone the repository**:
+1. **Clone the repository**  
 
-   ```bash
    git clone https://github.com/jojseph/Calculator-App---CS345.git
-````
 
-2. **Navigate to the project directory**:
 
-   ```bash
+2. **Navigate into the project directory**
+
    cd Calculator-App---CS345
-   ```
 
-3. **Install dependencies** (if required):
 
-   ```bash
+3. **Restore dependencies**
+
    dotnet restore
-   ```
 
-## Usage
-
-Once the application is running, you can:
-
-* Enter numbers using the on-screen buttons or your keyboard.
-* Click the operator buttons (+, −, ×, ÷) for the desired operation.
-* Click the equals button (=) to display the result.
-* Use the clear button (C) to reset the calculator.
-
-To run the project:
-
-```bash
-dotnet run
-```
-
-## Testing
-
-If tests are included, run them with:
-
-```bash
-dotnet test
-```
-
-## License
-
-This project is licensed under the MIT License.
-See the [LICENSE](LICENSE) file for details.
-
-```
 
 ---
 
-Would you like me to also create a **shorter, minimal version** of this README (like a quick-start style) alongside this detailed one?
-```
+## Usage
+
+To launch the application:
+
+dotnet run
+
+
+How to use the calculator:
+
+* Use on-screen buttons or keyboard to enter numbers
+* Click or press operator buttons (`+`, `-`, `*`, `/`)
+* Press the equals button (`=`) to compute the result
+* Use the clear button (`C`) to reset input
+
+---
+
+## Running Tests
+
+*(If test framework and tests are included—otherwise, feel free to remove this section)*
+
+Run the test suite:
+
+dotnet test
+
+---
+
+
+## License
+
+Distributed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
